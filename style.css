@@ -4,11 +4,7 @@ body {
     padding: 0;
     width: 100%;
 }
-@media (width: 100%) {
-    header {
-        width: 100%;
-    }
-}
+
 header {
     width: 100%;
     background-color: #0a1c2e;
@@ -16,12 +12,14 @@ header {
     padding: 10px 0;
     text-align: center;
     justify-content: space-between;
-    
+    align-items: center;
+    display: flex;
 }
 .element_header{
-    background:url(./img/element_header_fon.jpg); 
+    background:url(./img/element_header_fon.jpg) no-repeat center center; 
     width: 100%;
-  
+    background-size: cover;
+   
 }
 .element_text{
     margin: 0px;
@@ -87,7 +85,8 @@ nav ul li a {
 .content {
     flex: 1;
     padding: 0px;
-    background: url(./img/rm380-18.jpg);
+    background: url(./img/rm380-18.jpg) no-repeat center center;
+    background-size: cover;
     
 }
 
