@@ -4,7 +4,7 @@ body {
     padding: 0;
     width: 100%;
 }
-@media (max-width: 768px) {
+@media (width: 100%) {
     header {
         width: 100%;
     }
@@ -19,10 +19,8 @@ header {
     
 }
 .element_header{
-    background-color: #26507a;
-    /*  background:url(./img/element_header_fon.jpg); 
-  min-height: 120px;*/
-   width: 100%;
+    background:url(./img/element_header_fon.jpg); 
+    width: 100%;
   
 }
 .element_text{
