@@ -1,0 +1,192 @@
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+}
+header {
+    width: 100%;
+    background-color: #0a1c2e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.element_header{
+    background:url(./img/element_header_fon.jpg); 
+   /* min-height: 120px;*/
+   width: 100%;
+   background-size: cover;
+    background-position: center;
+}
+.element_text{
+    margin: 0px;
+    text-align: center;
+    padding:50px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+
+nav ul li a {
+    color: #887070;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+    width: 200px;
+    padding: 15px;
+    
+}
+
+.menu_bar{
+    position: sticky;
+    width: 200px;
+    top:0;
+    z-index: 100;
+    
+}
+
+.sidebar nav ul li {
+    margin: 15px;
+}
+
+.sidebar nav ul li :hover{
+    background-color: lightslategray;
+    color: #fff;
+    
+}
+
+.content {
+    flex: 1;
+    padding: 0px;
+    background: url(./img/rm380-18.jpg);
+    
+}
+
+.history_content{
+    text-align: center;
+    color: #0a1c2e;
+}
+
+hr {
+    background-color:#0a1c2e ;
+    height: 2px;
+    width:400px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+.content_blok{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: justify;
+    background-color: #fff;
+}
+
+.teacher-profile {
+    max-width: 760px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+ol li {
+   text-align: left; 
+}
+.teachers-list li :hover{
+   color: rgb(72, 54, 230);
+}
+
+.teacher-profile .teacher-profile_img {
+    width: 200px;
+   height: 250px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.border_certificate{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 440px;
+    background-color: #f0ebf4;
+    margin: 0 auto;
+}
+
+.teacher_certificate img{
+   width: 400px;
+   margin-top: 10px;
+}
+
+.diploma_list{
+    text-align: left;
+}
+
+.text_naws{
+    text-align: justify;
+}
+
+.img_news{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s;
+}
+
+.img_news:hover{
+    transform: scale(1.1);
+
+}
+footer {
+    background-color:  #0a1c2e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
