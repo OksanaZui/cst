@@ -19,11 +19,11 @@ header {
     
 }
 .element_header{
-    background:url(./img/element_header_fon.jpg); 
-   /* min-height: 120px;*/
+    background-color: #26507a;
+    /*  background:url(./img/element_header_fon.jpg); 
+  min-height: 120px;*/
    width: 100%;
-   background-size: cover;
-    background-position: center;
+  
 }
 .element_text{
     margin: 0px;
