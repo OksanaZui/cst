@@ -35,16 +35,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    width: 100%;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+    display: block;
+    margin: 20px;
    
 }
 
